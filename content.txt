@@ -1,0 +1,6 @@
+Class and onj (example)
+ Class has data/ attribute and func/ methords
+    Code walkthough
+    > Attributes get called itself, methods are called manually
+
+Why python is called oops? - Everything in python is an object (datastructure, datatypes etc)
