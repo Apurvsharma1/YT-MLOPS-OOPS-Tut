@@ -1,9 +1,10 @@
 class chatbook:
     def __init__(self):
+        self.__name = "Default user"
         self.username = ''
         self.password = ''
         self.loggedin = False
-        self.menu()
+        #self.menu()
     def menu(self):
         user_input = input("""Welcome to chatbook, How would you like to proceed
                            1. Press 1 to signup
@@ -57,7 +58,7 @@ class chatbook:
         if(self.loggedin==True):
             txt = input("Enter you message here -- ")
             frnd = input("Whom to send the message? -> ")
-            print(f"Your mesage has been sent to {frnd}")
+            print(f"Your mesage has been sent to {frnd}---{txt}")
 
         else:
             print("You need to signin first for message")

@@ -16,3 +16,6 @@ sam = employee()
 
 sam.travel("kerala")
 print(type(sam))
+
+sam.name = "Sam Kumar"
+print(sam.name)
